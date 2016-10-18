@@ -30,7 +30,7 @@
 
 #include "ceres/collections_port.h"
 
-inline uint32 Hash32NumWithSeed(uint32 num, uint32 c) {
+/*inline uint32 Hash32NumWithSeed(uint32 num, uint32 c) {
   uint32 b = 0x9e3779b9UL;            // the golden ratio; an arbitrary value
   mix(num, b, c);
   return c;
@@ -40,4 +40,4 @@ inline uint64 Hash64NumWithSeed(uint64 num, uint64 c) {
   uint64 b = GG_ULONGLONG(0xe08c1d668b756f82);   // more of the golden ratio
   mix(num, b, c);
   return c;
-}
+}*/
